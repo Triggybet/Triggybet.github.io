@@ -27,10 +27,6 @@ a:hover{
   color:green;
 }
 
-.navbar {
-  background-color:transparent!important;
-}
-
 .navbar .nav-link {
   color: white!important;
   font-weight: 400;
@@ -161,11 +157,6 @@ a:hover{
   }
 }
 
-@media(max-width: 991px){
-    .navbar {
-    display: none;
-  }
-}
 
 @media(max-width:767px) {
 

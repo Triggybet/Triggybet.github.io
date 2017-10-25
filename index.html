@@ -25,16 +25,18 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background: #242424  !important;">
       <div class="container">
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" height="30" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#eigsection">Triggy EiG Challenge</a>
+              <a class="nav-link" href="#eigsection">EiG Triggy Challenge</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#triggysection">What's Triggy?</a>
@@ -179,16 +181,6 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <script type="text/javascript">
-      $(function () {
-        $(document).scroll(function () {
-          var $nav = $(".navbar.fixed-top");
-          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-          console.log($nav.height());
-        });
-      });
-    </script>
 
   </body>
 
