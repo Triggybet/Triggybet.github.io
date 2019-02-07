@@ -20,9 +20,7 @@ button {
 }
 
 p a {
-    color: black!important;
     font-weight: 800;
-    text-decoration: underline!important;
 }
 
 .jumbotron {
@@ -159,8 +157,32 @@ header img {
 
 /********** copyright **********/
 #copyright {
-    background: #192440;
+    background-image: linear-gradient(to bottom, #13222d, #142430, #162733, #172937, #182c3a);
     padding: 2rem 3rem;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+#psectionheader {
+    background-image: linear-gradient(to bottom, #13222d, #142430, #162733, #172937, #182c3a);
+    padding: 2rem 3rem;
+    color: white;
+}
+
+#psectionheader a {
+    color: #ffffff;
+
+}
+
+#psectionheader a::before { 
+  content: "›";
+}
+
+#psectionheader a:hover {
+    color: #ffffff50;
+    text-decoration: none;
 }
 
 #copyright #social-media a {
@@ -197,7 +219,7 @@ ul {
 }
 
 .product-div-header {
-    background: #232323;
+    background: #1f1f1f;
     color: white;
     margin-bottom: 0;
 }
@@ -216,6 +238,7 @@ ul {
     font-weight: 600;
     color: #717171;
 }
+
 
 /********** RWD **********/
 @media (max-width: 575px) {
