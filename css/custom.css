@@ -1,3 +1,5 @@
+
+
 /********** common setting **********/
 body {
     max-width: 100%;
@@ -97,9 +99,18 @@ p a {
     background-size: cover;
 }
 
+#banner h1 {
+    font-size: 3rem;
+}
+
+#banner p {
+    font-size: 1.8rem;
+}
+
 /********** banner **********/
 header {
     overflow: hidden;
+    margin-bottom: 40px;
 }
 
 header img {
@@ -243,8 +254,16 @@ ul {
 /********** RWD **********/
 @media (max-width: 575px) {
     #banner h1 {
-        font-size: 2.6rem;
-        line-height: 3.9rem!important;
+        font-size: 1.8rem;
+    }
+
+    #banner p {
+        font-size: 1rem;
+    }
+
+    #banner {
+        padding-bottom: 5rem;
+        padding-bottom: 5rem;
     }
 
     .product-div {
@@ -261,6 +280,10 @@ ul {
     .product-text-content {
         text-align: center;
 
+    }
+
+    .headline-text{
+        font-size: 1rem;
     }
     
 }
