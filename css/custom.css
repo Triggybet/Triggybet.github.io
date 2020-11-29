@@ -27,6 +27,7 @@ p a {
 
 .jumbotron {
     margin-bottom: 0 !important;
+    padding: 8rem 2rem !important;
 }
 
 .atlas-cta {
@@ -168,7 +169,7 @@ header img {
 
 /********** copyright **********/
 #copyright {
-    background-image: linear-gradient(to bottom, #13222d, #142430, #162733, #172937, #182c3a);
+    background: #1a1f23;
     padding: 2rem 3rem;
 }
 
@@ -177,7 +178,7 @@ a:hover {
 }
 
 #psectionheader {
-    background-image: linear-gradient(to bottom, #13222d, #142430, #162733, #172937, #182c3a);
+    background: #1a1f23;
     padding: 2rem 3rem;
     color: white;
 }
@@ -254,11 +255,11 @@ ul {
 /********** RWD **********/
 @media (max-width: 575px) {
     #banner h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     #banner p {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
     #banner {
